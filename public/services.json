@@ -1,0 +1,21 @@
+[
+    {
+        "id":1,"name":"Ginecology","description":"Gynaecology or gynecology (see spelling differences) is the medical practice dealing with the health of the female reproductive system. ","img":"https://i.ibb.co/bRqcMtp/01.png"
+    },
+
+    {
+        "id":2,"name":"Pediatrics","description":"Paediatrics is the branch of medicine that involves the medical care of infants, children, and adolescents. The American Academy of Pediatrics recommends.","img":"https://i.ibb.co/YP7fSG5/02.png"
+    },
+    {
+        "id":3,"name":"Ophthalmology","description":"Ophthalmology®, the journal of the American Academy of Ophthalmology, serves society by publishing clinical and basic science research and other relevant.","img":"https://i.ibb.co/3dTv2GX/03.png"
+    },
+    {
+        "id":4,"name":"Neurology","description":"Neurology is the branch of medicine concerned with the study and treatment of disorders of the nervous system. The nervous system is a complex, sophisticated system that regulates and coordinates body activities. It has two major divisions: Central nervous system: the brain and spinal cord.","img":"https://i.ibb.co/VjY6bXh/04.png"
+    },
+    {
+        "id":5,"name":"Odontology","description":"Forensic odontologists are highly experienced, specially trained dentists who use their expertise to help identify unknown remains and trace bite marks to a specific individual. The forensic odontologist may be called in to do so by police officers, the medical examiner or the coroner.","img":"https://i.ibb.co/DfksbR7/05.png"
+    },
+    {
+        "id":6,"name":"Laboratory","description":"A laboratory is a facility that provides controlled conditions in which scientific or technological research, experiments, and measurement may be performed.","img":"https://i.ibb.co/YLZn82L/06.png"
+    }
+]
