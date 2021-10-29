@@ -7,6 +7,9 @@ import {
 } from 'firebase/auth'
 import { useEffect } from 'react'
 import { useState } from 'react'
+import initializeAuthentication from './../Login/firebase/firebase.init'
+
+initializeAuthentication()
 
 const useFirebase = () => {
   const [user, setUser] = useState({})
@@ -15,9 +18,16 @@ const useFirebase = () => {
   // sign in
   const signInWithGoogle = () => {
     const googleProvider = new GoogleAuthProvider()
-    signInWithPopup(auth, googleProvider).then((result) => {
+
+    return signInWithPopup(auth, googleProvider).then((result) => {
       setUser(result.user)
+      console.log(result.user)
     })
+  }
+
+  // sign out
+  const logOut = () => {
+    signOut(auth).then(() => {})
   }
 
   // observed
@@ -31,11 +41,6 @@ const useFirebase = () => {
     })
     return () => unsubscribe
   }, [])
-
-  // sign out
-  const logOut = () => {
-    signOut(auth).then(() => {})
-  }
 
   return {
     user,

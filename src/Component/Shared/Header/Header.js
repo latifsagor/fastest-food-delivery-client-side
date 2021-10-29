@@ -1,8 +1,10 @@
 import React from 'react'
-import { Container, Nav, Navbar } from 'react-bootstrap'
+import { Button, Container, Nav, Navbar } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
+import useFirebase from '../../hooks/useFirebase'
 
 const Header = () => {
+  const { user, logOut } = useFirebase()
   return (
     <Navbar bg="dark" variant="dark" expand="lg">
       <Container>
@@ -29,7 +31,7 @@ const Header = () => {
             <Nav.Link as={Link} to="/contactUs">
               Contact Us
             </Nav.Link>
-            {/* {user?.email ? (
+            {user?.email ? (
               <Button onClick={logOut} variant="outline-warning mx-3">
                 Log Out
               </Button>
@@ -37,14 +39,14 @@ const Header = () => {
               <Nav.Link as={Link} to="/login">
                 Log In
               </Nav.Link>
-            )} */}
-            {/* <Navbar.Text>
+            )}
+            <Navbar.Text>
               Signed in as:{' '}
               <a href="#login">
                 {' '}
                 {user?.displayName ? user?.displayName : user?.email}{' '}
               </a>
-            </Navbar.Text> */}
+            </Navbar.Text>
           </Nav>
         </Navbar.Collapse>
       </Container>
