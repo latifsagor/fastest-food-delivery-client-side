@@ -10,7 +10,9 @@ const Booking = () => {
     <div className="container py-3">
       <div className="row">
         <div className="col-lg-7">
-          <img src={element?.img} alt="" />
+          <img className="img-fluid" src={element?.img} alt="" />
+          <h2>{element?.name}</h2>
+          <p>{element?.description}</p>
         </div>
         <div className="col-lg-5"></div>
       </div>

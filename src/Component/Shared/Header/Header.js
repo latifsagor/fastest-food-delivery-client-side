@@ -1,10 +1,11 @@
 import React from 'react'
 import { Button, Container, Nav, Navbar } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
-import useFirebase from '../../hooks/useFirebase'
+import useAuth from './../../hooks/useAuth'
+import { HashLink } from 'react-router-hash-link'
 
 const Header = () => {
-  const { user, logOut } = useFirebase()
+  const { user, logOut } = useAuth()
   return (
     <Navbar bg="dark" variant="dark" expand="lg">
       <Container>
@@ -16,10 +17,10 @@ const Header = () => {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link as={Link} to="/home#home">
+            <Nav.Link as={HashLink} to="/home#home">
               Home
             </Nav.Link>
-            <Nav.Link as={Link} to="/home#services">
+            <Nav.Link as={HashLink} to="/home#services">
               Services
             </Nav.Link>
             <Nav.Link as={Link} to="/about">

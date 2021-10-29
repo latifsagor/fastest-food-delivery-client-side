@@ -1,21 +1,21 @@
 [
     {
-        "id":1,"name":"Ginecology","description":"Gynaecology or gynecology (see spelling differences) is the medical practice dealing with the health of the female reproductive system. ","img":"https://i.ibb.co/bRqcMtp/01.png"
+        "id":1,"name":"Momo","description":"Momo is a type of Tibetan dumpling dish. It is popular in Tibet, Nepal, India and in the regions straddling the Himalayas between South Asia and East Asia.","img":"https://i.ibb.co/5xmq1BL/1.jpg"
     },
 
     {
-        "id":2,"name":"Pediatrics","description":"Paediatrics is the branch of medicine that involves the medical care of infants, children, and adolescents. The American Academy of Pediatrics recommends.","img":"https://i.ibb.co/YP7fSG5/02.png"
+        "id":2,"name":"Pizza","description":"Pizza is a dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients.","img":"https://i.ibb.co/qnSkrHK/2.jpg"
     },
     {
-        "id":3,"name":"Ophthalmology","description":"Ophthalmology®, the journal of the American Academy of Ophthalmology, serves society by publishing clinical and basic science research and other relevant.","img":"https://i.ibb.co/3dTv2GX/03.png"
+        "id":3,"name":"Kung pao chicken","description":"Kung pao chicken is a highly addictive stir-fried chicken with the perfect combination of salty, sweet and spicy flavour! Make Kung Pao Chicken better than Chinese","img":"https://i.ibb.co/RSTYzSj/3.jpg"
     },
     {
-        "id":4,"name":"Neurology","description":"Neurology is the branch of medicine concerned with the study and treatment of disorders of the nervous system. The nervous system is a complex, sophisticated system that regulates and coordinates body activities. It has two major divisions: Central nervous system: the brain and spinal cord.","img":"https://i.ibb.co/VjY6bXh/04.png"
+        "id":4,"name":"Thai Soup","description":"Tom yum is probably the most popular and famous Thai soup out there, and for good reason. The soup is served piping hot and the forward flavors are sour and spicy, thanks to generous squeezes of lime and strips of fiery.","img":"https://i.ibb.co/F3rGZzq/4.jpg"
     },
     {
-        "id":5,"name":"Odontology","description":"Forensic odontologists are highly experienced, specially trained dentists who use their expertise to help identify unknown remains and trace bite marks to a specific individual. The forensic odontologist may be called in to do so by police officers, the medical examiner or the coroner.","img":"https://i.ibb.co/DfksbR7/05.png"
+        "id":5,"name":"Steak","description":"A steak is a meat generally sliced across the muscle fibers, potentially including a bone. It is normally grilled, though can also be pan-fried. Steak can also be cooked in sauce, such as in steak and kidney pie, or minced and formed into patties, such as hamburgers","img":"https://i.ibb.co/7kc5CZ7/5.jpg"
     },
     {
-        "id":6,"name":"Laboratory","description":"A laboratory is a facility that provides controlled conditions in which scientific or technological research, experiments, and measurement may be performed.","img":"https://i.ibb.co/YLZn82L/06.png"
+        "id":6,"name":"Club Sandwich","description":"A club sandwich, also called a clubhouse sandwich, is a sandwich of bread, sliced cooked poultry, ham or fried bacon, lettuce, tomato, and mayonnaise. It is often cut into quarters or halves and held together by cocktail sticks","img":"https://i.ibb.co/zSXzK5y/6.jpg"
     }
 ]
