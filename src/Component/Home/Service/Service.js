@@ -11,7 +11,7 @@ const Service = ({ service }) => {
         <Card.Body>
           <Card.Title>{name}</Card.Title>
           <Card.Text>{description}</Card.Text>
-          <Card.Text>{price}</Card.Text>
+          <Card.Text className="text-success">Price: {price}$</Card.Text>
           <Link to={`/booking/${id}`}>
             <Button variant="outline-dark">View Details</Button>
           </Link>
