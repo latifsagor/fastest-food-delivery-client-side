@@ -23,18 +23,27 @@ const Header = () => {
             <Nav.Link as={HashLink} to="/home#services">
               Services
             </Nav.Link>
-            <Nav.Link as={Link} to="/orderReview">
-              Order Review
-            </Nav.Link>
-            <Nav.Link as={Link} to="/addProducts">
-              Add Products
-            </Nav.Link>
-            <Nav.Link as={Link} to="/login">
-              Login
-            </Nav.Link>
-            <Nav.Link as={Link} to="/contactUs">
-              Contact Us
-            </Nav.Link>
+            {user?.email ? (
+              <Nav.Link as={Link} to="/orderReview">
+                My Order
+              </Nav.Link>
+            ) : (
+              <Nav.Link as={Link} to="/"></Nav.Link>
+            )}
+            {user?.email ? (
+              <Nav.Link as={Link} to="/addProducts">
+                Add Products
+              </Nav.Link>
+            ) : (
+              <Nav.Link as={Link} to="/"></Nav.Link>
+            )}
+            {user?.email ? (
+              <Nav.Link as={Link} to="/manageAllOrders">
+                Manage All Orders Info
+              </Nav.Link>
+            ) : (
+              <Nav.Link as={Link} to="/"></Nav.Link>
+            )}
             {user?.email ? (
               <Button onClick={logOut} variant="outline-warning mx-3">
                 Log Out

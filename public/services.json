@@ -1,21 +1,21 @@
 [
     {
-        "id":1,"name":"Momo","description":"Momo is a type of Tibetan dumpling dish. It is popular in Tibet, Nepal, India and in the regions straddling the Himalayas between South Asia and East Asia.","img":"https://i.ibb.co/5xmq1BL/1.jpg"
+        "id":1,"name":"Momo", "price": 25, "description":"Momo is a type of Tibetan dumpling dish. It is popular in Tibet, Nepal, India and in the regions straddling the Himalayas between South Asia and East Asia.","img":"https://i.ibb.co/5xmq1BL/1.jpg"
     },
 
     {
-        "id":2,"name":"Pizza","description":"Pizza is a dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients.","img":"https://i.ibb.co/qnSkrHK/2.jpg"
+        "id":2,"name":"Pizza", "price": 45,"description":"Pizza is a dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients.","img":"https://i.ibb.co/qnSkrHK/2.jpg"
     },
     {
-        "id":3,"name":"Kung pao chicken","description":"Kung pao chicken is a highly addictive stir-fried chicken with the perfect combination of salty, sweet and spicy flavour! Make Kung Pao Chicken better than Chinese","img":"https://i.ibb.co/RSTYzSj/3.jpg"
+        "id":3,"name":"Kung pao chicken", "price": 25,"description":"Kung pao chicken is a highly addictive stir-fried chicken with the perfect combination of salty, sweet and spicy flavour! Make Kung Pao Chicken better than Chinese","img":"https://i.ibb.co/RSTYzSj/3.jpg"
     },
     {
-        "id":4,"name":"Thai Soup","description":"Tom yum is probably the most popular and famous Thai soup out there, and for good reason. The soup is served piping hot and the forward flavors are sour and spicy, thanks to generous squeezes of lime and strips of fiery.","img":"https://i.ibb.co/F3rGZzq/4.jpg"
+        "id":4,"name":"Thai Soup", "price": 35, "description":"Tom yum is probably the most popular and famous Thai soup out there, and for good reason. The soup is served piping hot and the forward flavors are sour and spicy, thanks to generous squeezes of lime and strips of fiery.","img":"https://i.ibb.co/F3rGZzq/4.jpg"
     },
     {
-        "id":5,"name":"Steak","description":"A steak is a meat generally sliced across the muscle fibers, potentially including a bone. It is normally grilled, though can also be pan-fried. Steak can also be cooked in sauce, such as in steak and kidney pie, or minced and formed into patties, such as hamburgers","img":"https://i.ibb.co/7kc5CZ7/5.jpg"
+        "id":5,"name":"Steak", "price": 65, "description":"A steak is a meat generally sliced across the muscle fibers, potentially including a bone. It is normally grilled, though can also be pan-fried. Steak can also be cooked in sauce, such as in steak and kidney pie, or minced and formed into patties, such as hamburgers","img":"https://i.ibb.co/7kc5CZ7/5.jpg"
     },
     {
-        "id":6,"name":"Club Sandwich","description":"A club sandwich, also called a clubhouse sandwich, is a sandwich of bread, sliced cooked poultry, ham or fried bacon, lettuce, tomato, and mayonnaise. It is often cut into quarters or halves and held together by cocktail sticks","img":"https://i.ibb.co/zSXzK5y/6.jpg"
+        "id":6,"name":"Club Sandwich", "price": 61, "description":"A club sandwich, also called a clubhouse sandwich, is a sandwich of bread, sliced cooked poultry, ham or fried bacon, lettuce, tomato, and mayonnaise. It is often cut into quarters or halves and held together by cocktail sticks","img":"https://i.ibb.co/zSXzK5y/6.jpg"
     }
 ]

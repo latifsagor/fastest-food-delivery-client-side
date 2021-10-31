@@ -1,6 +1,7 @@
 import React from 'react'
 import { Button } from 'react-bootstrap'
 import { useParams } from 'react-router'
+import { Link } from 'react-router-dom'
 import useServices from '../hooks/useServices'
 
 const Booking = () => {
@@ -18,7 +19,10 @@ const Booking = () => {
             <h2>{element?.name}</h2>
             <p>{element?.description}</p>
             <h5 className="text-success">Price: {element?.price}$</h5>
-            <Button>Add to cart</Button>
+            <Link to="/orderReview">
+              {' '}
+              <Button variant="outline-dark">Add to cart</Button>
+            </Link>
           </div>
         </div>
       </div>

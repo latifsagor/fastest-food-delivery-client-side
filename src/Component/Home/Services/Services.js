@@ -6,6 +6,8 @@ import Service from '../Service/Service'
 
 const Services = () => {
   const [services, setServices] = useState([])
+  const [singleProducts, setSingleProducts] = useState([])
+  const [search, setSearch] = useState('')
   useEffect(() => {
     fetch('http://localhost:5000/products')
       .then((res) => res.json())
@@ -29,11 +31,14 @@ const Services = () => {
   return (
     <div id="services" className="container">
       <div className="row">
-        <h2 className="pt-5 pb-2 text-center text-uppercase fw-bolder">
+        <h2 className="pt-5 pb-2 text-center text-uppercase text-success fw-bolder">
           Our Services
         </h2>
         {services.map((service, index) => (
-          <div className="col-lg-4 col-md-6 col-12 mb-3">
+          <div
+            key={service.name}
+            className="col-lg-4 col-md-6 col-12 py-3 mb-3"
+          >
             <Card style={{ width: '22rem' }}>
               <Card.Img variant="top img-fluid" src={service?.img} />
               <Card.Body>
