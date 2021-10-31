@@ -1,6 +1,16 @@
-# Getting Started with Create React App
+# Fastest Food Delivery Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is online food delivery website.
+Website link: [Create React App](https://food-delivery-26ccf.web.app/).
+
+<ul>
+    <li>
+        Dynamic services
+    </li>
+    <li>
+        After click the button product add to <b>MY ORDER</b> page
+    </li>
+</ul>
 
 ## Available Scripts
 
