@@ -26,8 +26,9 @@ const OrderReview = () => {
 
   // Delete Options Start
   const handleDelete = (id) => {
+    console.log(id)
     fetch(`https://afternoon-bayou-69075.herokuapp.com/orders/${id}`, {
-      method: 'DELETE',
+      method: 'delete',
       headers: {
         'content-type': 'application/json',
       },

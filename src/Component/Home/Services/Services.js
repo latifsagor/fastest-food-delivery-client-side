@@ -2,12 +2,9 @@ import React, { useEffect, useState } from 'react'
 import { Button, Card } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import useAuth from '../../hooks/useAuth'
-import Service from '../Service/Service'
 
 const Services = () => {
   const [services, setServices] = useState([])
-  const [singleProducts, setSingleProducts] = useState([])
-  const [search, setSearch] = useState('')
   useEffect(() => {
     fetch('https://afternoon-bayou-69075.herokuapp.com/products')
       .then((res) => res.json())
@@ -19,7 +16,7 @@ const Services = () => {
   const handleAddToCart = (index) => {
     const data = services[index]
     data.email = user?.email
-
+    delete data._id
     fetch('https://afternoon-bayou-69075.herokuapp.com/addItem', {
       method: 'POST',
       headers: {
@@ -66,7 +63,3 @@ const Services = () => {
 }
 
 export default Services
-
-{
-  /* <Service key={service._id} service={service} index={index}></Service> */
-}

@@ -9,7 +9,9 @@ const Header = () => {
   return (
     <Navbar bg="dark" variant="dark" expand="lg">
       <Container>
-        <Navbar.Brand href="#">Fastest Food Delivery</Navbar.Brand>
+        <Navbar.Brand as={Link} to="/home" className="text-success">
+          Fastest Food Delivery
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav

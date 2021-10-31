@@ -26,7 +26,7 @@ const AddProducts = () => {
         <input
           {...register('name')}
           placeholder="Products Title"
-          className="m-2 p-2"
+          className="m-2 p-2 w-50"
         />{' '}
         <br />
         {/* include validation with required or other standard HTML validation rules */}
@@ -34,25 +34,25 @@ const AddProducts = () => {
           type="number"
           {...register('price', { required: true })}
           placeholder="Price"
-          className="m-2 p-2"
+          className="m-2 p-2 w-50"
         />{' '}
         <br />
         <input
           type="text"
           {...register('description', { required: true })}
           placeholder="Description"
-          className="m-2 p-2"
+          className="m-2 p-2 w-50"
         />{' '}
         <br />
         <input
           {...register('img', { required: true })}
           placeholder="Image Link"
-          className="m-2 p-2"
+          className="m-2 p-2 w-50"
         />{' '}
         <br />
         {/* errors will return when field validation fails  */}
         {errors.exampleRequired && <span>This field is required</span>}
-        <input type="submit" className="btn btn-success" />
+        <input type="submit" className="btn btn-success w-50" />
       </form>
     </div>
   )
