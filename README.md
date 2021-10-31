@@ -10,6 +10,15 @@ Website link: [Create React App](https://food-delivery-26ccf.web.app/).
     <li>
         After click the button product add to <b>MY ORDER</b> page
     </li>
+    <li>
+        If you want to delete any ordered item? Then go to My Order page and click the remove button. That's it. 
+    </li>
+    <li>
+        And you also fill-up the order pages information form which shown which is show <b> Manage All Orders info Pages </b>.
+    </li>
+    <li>
+        And lastly, when go to <b>My Order, Add Products and My All Orders Pages</b>, you never want to go without login. After login <b>REDIRECT</b> the page when you want to go.
+    </li>
 </ul>
 
 ## Available Scripts
