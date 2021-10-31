@@ -9,7 +9,7 @@ const Services = () => {
   const [singleProducts, setSingleProducts] = useState([])
   const [search, setSearch] = useState('')
   useEffect(() => {
-    fetch('http://localhost:5000/products')
+    fetch('https://afternoon-bayou-69075.herokuapp.com/products')
       .then((res) => res.json())
       .then((data) => setServices(data))
   }, [])
@@ -20,7 +20,7 @@ const Services = () => {
     const data = services[index]
     data.email = user?.email
 
-    fetch('http://localhost:5000/addItem', {
+    fetch('https://afternoon-bayou-69075.herokuapp.com/addItem', {
       method: 'POST',
       headers: {
         'content-type': 'application/json',

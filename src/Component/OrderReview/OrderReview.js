@@ -19,14 +19,14 @@ const OrderReview = () => {
   const email = user?.email
 
   useEffect(() => {
-    fetch(`http://localhost:5000/myOrders/${email}`)
+    fetch(`https://afternoon-bayou-69075.herokuapp.com/myOrders/${email}`)
       .then((res) => res.json())
       .then((data) => setOrders(data))
   }, [])
 
   // Delete Options Start
   const handleDelete = (id) => {
-    fetch(`http://localhost:5000/orders/${id}`, {
+    fetch(`https://afternoon-bayou-69075.herokuapp.com/orders/${id}`, {
       method: 'DELETE',
       headers: {
         'content-type': 'application/json',
@@ -48,7 +48,7 @@ const OrderReview = () => {
 
   // Place order information
   const onSubmit = (data) => {
-    fetch(`http://localhost:5000/placeOrder`, {
+    fetch(`https://afternoon-bayou-69075.herokuapp.com/placeOrder`, {
       method: 'POST',
       headers: {
         'content-type': 'application/json',
