@@ -1,7 +1,7 @@
 # Fastest Food Delivery Website
 
 This is online food delivery website.
-Website link: [Create React App](https://food-delivery-26ccf.web.app/).
+Website link: [Fastest food delivery](https://food-delivery-26ccf.web.app/).
 
 <ul>
     <li>
@@ -20,6 +20,9 @@ Website link: [Create React App](https://food-delivery-26ccf.web.app/).
         And lastly, when go to <b>My Order, Add Products and My All Orders Pages</b>, you never want to go without login. After login <b>REDIRECT</b> the page when you want to go.
     </li>
 </ul>
+
+Thanks,
+MD Abdul Latif Sagor
 
 ## Available Scripts
 
